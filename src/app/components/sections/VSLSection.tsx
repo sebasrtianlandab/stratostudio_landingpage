@@ -40,7 +40,7 @@ export function VSLSection() {
         </div>
 
         <div className="mt-8 sm:mt-12 text-center">
-          <CTAButton href="#contacto" variant="primary">
+          <CTAButton href="#niveles" variant="primary">
             Ver Planes Mensuales
           </CTAButton>
         </div>
