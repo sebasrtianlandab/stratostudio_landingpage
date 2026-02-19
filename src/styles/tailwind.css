@@ -1,0 +1,12 @@
+@import 'tailwindcss' source(none);
+@source '../**/*.{js,ts,jsx,tsx}';
+
+@theme {
+  --color-background: #0A0A0A;
+  --color-surface: #0F0F0F;
+  --color-surface-alt: #1A1A1A;
+  --color-primary: #ff914d;
+  --color-primary-dark: #ff3131;
+}
+
+@import 'tw-animate-css';

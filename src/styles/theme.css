@@ -1,0 +1,30 @@
+:root {
+  --font-size: 16px;
+  --background: #0A0A0A;
+  --foreground: #fafafa;
+  --primary: #ff914d;
+  --primary-dark: #ff3131;
+  --muted: rgba(255, 255, 255, 0.4);
+  --border: rgba(255, 145, 77, 0.1);
+}
+
+html {
+  font-size: var(--font-size);
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Grid pattern using theme primary (opacity via color-mix) */
+.bg-grid-pattern {
+  background-image:
+    linear-gradient(color-mix(in srgb, var(--primary) 3%, transparent) 1px, transparent 1px),
+    linear-gradient(90deg, color-mix(in srgb, var(--primary) 3%, transparent) 1px, transparent 1px);
+}
+.bg-grid-pattern-30 { background-size: 30px 30px; }
+.bg-grid-pattern-40 { background-size: 40px 40px; }
+.bg-grid-pattern-50 { background-size: 50px 50px; }
+.bg-grid-pattern-60 { background-size: 60px 60px; }
